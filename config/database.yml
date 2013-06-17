@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: pg_api_development
+  host: localhost
+  pool: 5
+  username: pg_api
+  password: pg_api
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: pg_api_test
+  host: localhost
+  pool: 5
+  username: pg_api
+  password: pg_api
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: pg_api_production
+  host: localhost
+  pool: 5
+  username: pg_api
+  password: pg_api
